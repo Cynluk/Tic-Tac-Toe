@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: center;
+  margin: 20px;
+  padding: 10px;
+  align-self: center;
+  /* padding: 10px; */
+  /* align-items: center; */
+  /* justify-content: center;
+  align-content: center; */
+  width: 363px;
+  height: 363px;
+}
+
+.cell {
+  display: flex;
+  flex-basis: 33%;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+#form {
+  align-self: flex-start;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+#startMessage {
+  color: brown;
+}
+
+.winningMessage {
+  /* display: none; */
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+  font-size: 36px;
+  padding: 10px;
+}
+
+/* .winningMessageShow {
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+  font-size: 36px;
+} */
+
+button {
+  cursor: pointer;
+}
+
+#restartButton {
+  background-color: tomato;
+  color: white;
+  font-size: 36px;
+  padding: 10px;
+}
